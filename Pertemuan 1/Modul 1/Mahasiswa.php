@@ -24,3 +24,4 @@ class Mahasiswa
 
 // Catatan: Kelas Mahasiswa tidak akan dieksekusi di sini,  
 // melainkan di file index.php.  
+?>
