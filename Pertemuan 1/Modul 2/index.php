@@ -1,12 +1,12 @@
 <?php
 // 1. Masukkan (include) file class Mahasiswa.  
-require_once 'Mahasiswa.php';
+require_once 'Mahasiswa2.php';
 
 // 2. Instansiasi Objek DENGAN PARAMETER (Menggunakan Konstruktor __construct)  
-$mhs1 = new Mahasiswa("M. Dimas Aditya", "2310010260");
+$mhs1 = new Mahasiswa2("M. Dimas Aditya", "2310010260");
 
 // 3. Instansiasi Objek kedua DENGAN PARAMETER  
-$mhs2 = new Mahasiswa("Mudryk Aka El-Dear God", "2023002");
+$mhs2 = new Mahasiswa2("Mudryk Aka El-Dear God", "2023002");
 
 // Catatan: Proses destruktor (__destruct) akan berjalan di akhir eksekusi skrip,  
 // namun di lingkungan tertentu (seperti iframe), outputnya mungkin tidak selalu terlihat.  

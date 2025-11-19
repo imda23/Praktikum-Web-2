@@ -4,7 +4,7 @@
  * Kelas Mahasiswa (Blueprint Objek Mahasiswa)  
  * Modul 2: Konstruktor, Destruktor, dan $this  
  */  
-class Mahasiswa  
+class Mahasiswa2  
 {  
     // Properti (Attributes)  
     public $nama;  
