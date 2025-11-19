@@ -6,12 +6,12 @@ require_once 'Mahasiswa.php';
 $mhs1 = new Mahasiswa();
 
 // 3. Mengisi Properti Objek (Mengakses data di dalam objek)  
-$mhs1->nama = "Andi Pratama";
-$mhs1->nim = "2023005";
+$mhs1->nama = "M. Dimas Aditya";
+$mhs1->nim = "2310010260";
 
 // 4. Membuat objek kedua (optional, untuk menunjukkan setiap objek unik)  
 $mhs2 = new Mahasiswa();
-$mhs2->nama = "Sinta Dewi";
+$mhs2->nama = "Anthony Ak El_Gasing";
 $mhs2->nim = "2023006";
 ?>
 
