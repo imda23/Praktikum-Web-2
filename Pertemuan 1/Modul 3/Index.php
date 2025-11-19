@@ -4,10 +4,10 @@ require_once 'Mahasiswa3.php';
 
 // 2. Instansiasi Objek DENGAN PARAMETER  
 // $mhs1 (NIM valid)  
-$mhs1 = new Mahasiswa3("Budi Santoso", "2023001");
+$mhs1 = new Mahasiswa3("M. Dimas Aditya", "2310010260");
 
 // $mhs2 (NIM tidak valid, akan ditolak oleh konstruktor/setter)  
-$mhs2 = new Mahasiswa3("Citra Kirana", "20230002"); // NIM 8 digit  
+$mhs2 = new Mahasiswa3("El Bola-Bali", "20230002"); // NIM 8 digit  
 
 // 3. Demonstrasi Akses Data (Setter/Getter)  
 
