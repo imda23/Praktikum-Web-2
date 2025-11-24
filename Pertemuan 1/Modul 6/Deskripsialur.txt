@@ -1,0 +1,9 @@
+Deskripsi Alur MVC: Melihat Daftar Mahasiswa
+
+Ketika pengguna membuka URL seperti situs.com/mahasiswa/index, permintaan tersebut pertama kali diterima oleh Front Controller atau Router. Router akan memecah URL tersebut untuk menentukan bahwa permintaan ditujukan kepada MahasiswaController dengan metode index(). Setelah itu, Controller inilah yang mengambil alih proses.
+
+Controller kemudian membutuhkan data daftar mahasiswa. Untuk itu, ia memanggil Model, yaitu komponen yang bertanggung jawab mengakses database. Model melakukan query ke basis data, mengambil seluruh data mahasiswa, kemudian mengembalikannya kepada Controller dalam bentuk data yang sudah rapi.
+
+Setelah menerima data dari Model, Controller memilih View yang sesuai, misalnya mahasiswa/index.php, lalu mengirimkan data mahasiswa tersebut ke View. View bertugas menampilkan data tersebut dalam bentuk halaman HTML yang mudah dibaca pengguna, tanpa menjalankan logika bisnis apa pun.
+
+Terakhir, View mengembalikan output HTML ke Controller, lalu melalui Front Controller, hasilnya dikirim kembali ke browser pengguna sehingga pengguna dapat melihat daftar mahasiswa di layar.
